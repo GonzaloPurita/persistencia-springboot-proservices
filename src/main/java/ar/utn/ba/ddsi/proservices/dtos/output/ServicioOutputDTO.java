@@ -8,7 +8,7 @@ public class ServicioOutputDTO {
     private Long id;
     private String nombre;
 
-    public static ServicioOutputDTO from(Servicio servicio) {
+    public static ServicioOutputDTO from(Servicio servicio) { // metodo para recrear una instancia de outputDTO a partir de un servicio
         var dto = new ServicioOutputDTO();
         dto.setId(servicio.getId());
         dto.setNombre(servicio.getNombre());

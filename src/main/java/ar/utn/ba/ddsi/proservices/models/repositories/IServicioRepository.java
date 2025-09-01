@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IServicioRepository extends JpaRepository<Servicio, Long> {
+public interface IServicioRepository extends JpaRepository<Servicio, Long> { // JpaRepository<Clase, TipoDePK> --> Ya me va a dar metodos para la persistencia
 }
